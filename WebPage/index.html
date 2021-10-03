@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divorce Predictor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;600;800&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="YellowBack">
+      <div class="CreamBack">
+        <div class="TitleBoxHorizontal">
+          <div class="TitleBoxVertical">
+            <h1>
+              Divorce <br />
+              Predictor
+            </h1>
+            <p class="IntroText">
+              Prediction based on Gottman couples therapy principles <br />
+              Trained using data from various regions of Turkey
+            </p>
+          </div>
+
+          <img id="couple" src="Marriage counseling-pana.png" alt="" />
+        </div>
+
+        <p id="Name">By Selina, Ke, Aigiarn, Yasamin</p>
+        <div class="ToCenter">
+          <p>
+            -----------------------------------------------------------------
+          </p>
+          <p class="InfoText">
+            Do you have trouble communicating with your partner? Is divorce
+            unaffordable for you?
+          </p>
+
+          <p class="InfoText">
+            Take a short quiz to find out whether your relationship is heading
+            toward a happy ending... or not.
+          </p>
+          <p>
+            -----------------------------------------------------------------
+          </p>
+        </div>
+        <div class="ButtonJump">
+          <a href="Start Quiz"></a>
+        </div>
+
+        <p class="Prompt">
+          For each question, choose whether you agree with the statements on
+          scale of 0-5.
+        </p>
+        <div class="QuestionGroup">
+          <label for="Q1"
+            >Q1. I know we can ignore our differences even if things get hard
+            sometimes.</label
+          >
+          <br />
+          <select name="Q1" class="question" id="Q1">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q2"
+            >Q2. The time I spent with my wife is special for us.</label
+          >
+          <br />
+          <select name="Q2" class="question" id="Q2">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q3"
+            >Q3. We are like two strangers who share the same environment at
+            home rather than family.</label
+          >
+          <br />
+          <select name="Q3" class="question" id="Q3">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q4">Q4. I enjoy our holidays with my wife.</label>
+          <br />
+          <select name="Q4" class="question" id="Q4">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q5">Q5. I enjoy traveling with my wife.</label>
+          <br />
+          <select name="Q5" class="question" id="Q5">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q6"
+            >Q6. My spouse and I have similar values in terms of personal
+            freedom.</label
+          >
+          <br />
+          <select name="Q6" class="question" id="Q6">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q7"
+            >Q7. Most of our goals for people (children friends etc.) are the
+            same.</label
+          >
+          <br />
+          <select name="Q7" class="question" id="Q7">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q8"
+            >Q8. Most of our goals for people (children friends etc.) are the
+            same.</label
+          >
+          <br />
+          <select name="Q8" class="question" id="Q8">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q9"
+            >Q9. My spouse and I have similar ideas about how roles should be in
+            marriage.</label
+          >
+          <br />
+          <select name="Q9" class="question" id="Q9">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q10">Q10. I know my spouse's favorite food.</label>
+          <br />
+          <select name="Q10" class="question" id="Q10">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q11"
+            >Q11. I can tell you what kind of stress my spouse is facing in
+            her/his life.</label
+          >
+          <br />
+          <select name="Q11" class="question" id="Q11">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q12"
+            >Q12. I know what my spouse's current sources of stress are.</label
+          >
+          <br />
+          <select name="Q12" class="question" id="Q12">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q13">Q13. I know my spouse's hopes and wishes.</label>
+          <br />
+          <select name="Q13" class="question" id="Q13">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q14">Q14. I know my spouse very well.</label>
+          <br />
+          <select name="Q14" class="question" id="Q14">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q15"
+            >Q15. I know my spouse's friends and their social
+            relationships.</label
+          >
+          <br />
+          <select name="Q15" class="question" id="Q15">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q16"
+            >Q16. I can use negative statements about my spouse's personality
+            during our discussions.</label
+          >
+          <br />
+          <select name="Q16" class="question" id="Q16">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q17"
+            >Q17. My discussion with my spouse is not calm.</label
+          >
+          <br />
+          <select name="Q17" class="question" id="Q17">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q18">Q18. Our discussions often occur suddenly.</label>
+          <br />
+          <select name="Q18" class="question" id="Q18">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q19"
+            >Q19. When I argue with my spouse ı only go out and I don't say a
+            word.</label
+          >
+          <br />
+          <select name="Q19" class="question" id="Q19">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q20"
+            >Q20. I'd rather stay silent than discuss with my spouse.</label
+          >
+          <br />
+          <select name="Q20" class="question" id="Q20">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <label for="Q21"
+            >Q21. I'd rather stay silent than discuss with my spouse.</label
+          >
+          <br />
+          <select name="Q21" class="question" id="Q21">
+            <option value="option1">0</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+            <option value="option4">4</option>
+            <option value="option5">5</option>
+          </select>
+          <br />
+          <br />
+          <div id="SubmitForm">
+            <form action="put link here" method="GET">
+              <input class="SubmitBtn" type="submit" value="Submit" />
+              <br />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
